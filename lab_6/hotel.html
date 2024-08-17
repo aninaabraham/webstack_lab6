@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management Registration</title>
+    <link rel="stylesheet" href="hotel.css">
+    
+    
+    
+</head>
+<body>
+    <form id="registrationForm">
+        <h1>Registration Form</h1>
+
+        <!-- Full Name -->
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+        <span id="fullNameError" class="error-message"></span>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <span id="emailError" class="error-message"></span>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <span id="passwordError" class="error-message"></span>
+
+        <!-- Confirm Password -->
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <span id="confirmPasswordError" class="error-message"></span>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <span id="dobError" class="error-message"></span>
+
+        <!-- Submit Button -->
+        <button type="submit" id="submitButton">Submit</button>
+    </form>
+
+    <script src="hotel.js"></script>
+</body>
+</html>

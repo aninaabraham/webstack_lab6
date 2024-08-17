@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(205, 199, 199);
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #aeabab;
+    border-radius: 4px;
+}
+
+input.valid {
+    border-color: green;
+}
+
+input.invalid {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #6c757d;
+}
